@@ -61,7 +61,7 @@ class Owner
   def sell_pets
       Cat.all.clear {|pet| pet.mood = "nervous"}
       Dog.all.clear {|pet| pet.mood = "nervous"}
-     binding.pry
+    
     end
   end
   
