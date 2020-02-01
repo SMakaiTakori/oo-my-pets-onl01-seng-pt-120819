@@ -59,8 +59,8 @@ class Owner
   end 
   
   def sell_pets
-      Cat.all.clear {|pet| pet.mood = "nervous"}
-      Dog.all.clear {|pet| pet.mood = "nervous"}
+      Cat.all.clear {|cat| Cat.mood = "nervous"}
+      Dog.all.clear {|dog| Dog.mood = "nervous"}
     
     end
   end
