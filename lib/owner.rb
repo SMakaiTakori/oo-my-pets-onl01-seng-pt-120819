@@ -62,7 +62,7 @@ class Owner
     Cat.all.clear {|cat| cat.mood = "nervous"}
     Dog.all.clear {|dog| dog.mood = "nervous"}
       
-      
+    binding.pry  
       
     
     end
