@@ -12,7 +12,7 @@ class Owner
   @species = "human"
   @mood = mood
   @@all << self
-  @pets = {:cats => [], :dogs=> []}
+  @pets = Cat.all, Dog.all
   end  
   
   def say_species
