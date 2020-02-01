@@ -10,12 +10,14 @@ class Owner
   def initialize(name)
   @name = name
   @species = "human"
+  @mood = mood
   @@all << self
   @pets = {:cats => [], :dogs=> []}
   end  
   
   def say_species
-     "I am a #{@species}."
+     "I
+     am a #{@species}."
   end  
  
   def self.all
