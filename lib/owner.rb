@@ -64,7 +64,7 @@ class Owner
     Cat.clear
     Dog.clear
       
-    binding.pry  
+
       
     
     end
