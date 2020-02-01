@@ -62,10 +62,14 @@ class Owner
     # Cat.all.each {|cat| cat.mood = "nervous" && cat.owner = nil}
     # Dog.all.each {|dog| dog.mood = "nervous" && dog.owner = nil}
     
-    self.cats
-    
-    
+    self.cats.each do |cat|
+      cat.mood = "nervous" 
+      cat.owner = nil
     end
+    self.dogs.each do |dog|
+      dog.mood = "nervous"
+      dog.owner = nil
+    end 
   end
   
   
