@@ -12,7 +12,7 @@ class Owner
   @species = "human"
   @mood = mood
   @@all << self
-  @pets = Cat.all
+  @pets << Cat.all
   end  
   
   def say_species
@@ -61,7 +61,7 @@ class Owner
   
   def sell_pets
      
-      
+      Cat.re
      
       pets.each {|pet| pet.mood = "nervous"}
       pets.clear
