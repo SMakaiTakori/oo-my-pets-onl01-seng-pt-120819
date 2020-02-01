@@ -12,7 +12,7 @@ class Owner
   @species = "human"
   @mood = mood
   @@all << self
-  @pets = Cat.all, Dog.all
+  @pets = Cat.all
   end  
   
   def say_species
